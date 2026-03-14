@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jessika | Reflexologie Plantaire</title>
+    <meta
+      name="description"
+      content="Reflexologie plantaire avec Jessika : une approche naturelle du bien-etre pour relacher les tensions et retrouver l'equilibre."
+    />
+    <meta
+      name="keywords"
+      content="reflexologie plantaire, reflexologue, bien-etre naturel, sante naturelle, relaxation"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-bg" aria-hidden="true">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <svg class="flow-lines" viewBox="0 0 1000 1000" preserveAspectRatio="none">
+        <path d="M-100,250 C200,100 400,420 700,280 C900,190 1100,270 1200,180" />
+        <path d="M-80,500 C220,350 430,640 760,530 C940,470 1120,560 1250,420" />
+        <path d="M-130,760 C170,600 470,900 760,760 C960,670 1090,780 1240,680" />
+      </svg>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#accueil">Jessika</a>
+      <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">Menu</button>
+      <nav class="site-nav" id="main-nav">
+        <a href="#a-propos">A propos</a>
+        <a href="#bienfaits">Bienfaits</a>
+        <a href="#seance">Seance</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero reveal" id="accueil">
+        <div class="hero-copy">
+          <p class="eyebrow">Reflexologie plantaire</p>
+          <h1>Jessika, l'essence du bien-etre</h1>
+          <p>
+            Une approche naturelle pour reequilibrer le corps, apaiser le mental et
+            favoriser une harmonie durable.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Prendre rendez-vous</a>
+            <a class="btn btn-ghost" href="#a-propos">Decouvrir l'approche</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-hidden="true">
+          <img src="CHARTE GRAPHIQUE.png" alt="" />
+        </div>
+      </section>
+
+      <section class="section reveal" id="a-propos">
+        <p class="section-kicker">A propos</p>
+        <h2>Un accompagnement doux, centre sur votre equilibre</h2>
+        <p>
+          Jessika est praticienne specialisee en reflexologie plantaire. Cette methode
+          naturelle stimule des zones reflexes du pied pour soutenir la circulation,
+          detendre les tensions et encourager les mecanismes d'autoregulation du corps.
+        </p>
+        <p>
+          Chaque seance se deroule dans une atmosphere calme et rassurante, pour vous
+          offrir un vrai espace de respiration.
+        </p>
+      </section>
+
+      <section class="section reveal" id="bienfaits">
+        <p class="section-kicker">Les bienfaits</p>
+        <h2>Des effets concrets sur le corps et l'esprit</h2>
+        <div class="benefits-grid">
+          <article class="benefit-card">
+            <h3>Reduction du stress</h3>
+            <p>Un relachement progressif des tensions physiques et nerveuses.</p>
+          </article>
+          <article class="benefit-card">
+            <h3>Sommeil ameliore</h3>
+            <p>Un apaisement general qui facilite l'endormissement et la recuperation.</p>
+          </article>
+          <article class="benefit-card">
+            <h3>Circulation stimulee</h3>
+            <p>Un soutien naturel du flux sanguin et de la sensation de jambes legeres.</p>
+          </article>
+          <article class="benefit-card">
+            <h3>Detente musculaire</h3>
+            <p>Une diminution des raideurs pour retrouver plus de souplesse au quotidien.</p>
+          </article>
+          <article class="benefit-card">
+            <h3>Equilibre energetique</h3>
+            <p>Une sensation d'alignement interieur et de vitalite plus stable.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section session reveal" id="seance">
+        <div>
+          <p class="section-kicker">Les seances</p>
+          <h2>Seance de reflexologie plantaire</h2>
+          <p>
+            Une seance personnalisee centree sur vos besoins du moment: gestion du
+            stress, fatigue, inconforts recurrents ou besoin de recentrage.
+          </p>
+        </div>
+        <dl>
+          <div>
+            <dt>Duree</dt>
+            <dd>1 heure</dd>
+          </div>
+          <div>
+            <dt>Tarif</dt>
+            <dd>60 EUR</dd>
+          </div>
+          <div>
+            <dt>Approche</dt>
+            <dd>Douce, naturelle et personnalisee</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="section reveal" id="contact">
+        <p class="section-kicker">Prendre rendez-vous</p>
+        <h2>Offrez-vous une parenthese de bien-etre</h2>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Coordonnees</h3>
+            <p>Telephone: <a href="tel:+33000000000">00 00 00 00 00</a></p>
+            <p>Email: <a href="mailto:contact@jessika-reflexo.fr">contact@jessika-reflexo.fr</a></p>
+            <p>Adresse: Cabinet bien-etre, France</p>
+          </div>
+          <form class="contact-form" action="#" method="post">
+            <label for="nom">Nom</label>
+            <input id="nom" name="nom" type="text" required />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button class="btn btn-primary" type="submit">Envoyer</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Jessika - Reflexologie plantaire</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
